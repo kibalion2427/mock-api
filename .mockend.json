@@ -9,5 +9,12 @@
    "Comment":{
       "body":"string",
       "post":"Post"
+   },
+   "User":{
+         "name":"string",
+         "email":"string",
+         "level":"int",
+         "type":"string",
+         "token":"string"
    }
 }
