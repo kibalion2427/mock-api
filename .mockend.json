@@ -10,12 +10,15 @@
       "body":"string",
       "post":"Post"
    },
-   "User":{
+   "Login":{
       "success":"boolean",
-         "name":"string",
-         "email":"string",
-         "level":"int",
-         "type":"string",
-         "token":"string"
+      "user":"User",
+      "token":"string"
+   },
+   "User":{
+      "name":"string",
+      "email":"string",
+      "level":"int",
+      "type":"string"
    }
 }
