@@ -1,23 +1,23 @@
 {
-  "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
-  },
-  "Comment": {
-    "body": "string",
-    "post": "Post"
-  },
-  "User": {
-  "success":"boolean",
-   "fields":{
-      "name":"string",
-      "email":"string",
-      "level":"int",
-      "type":"string"
-    },
-    "token":"string"
-  }
+   "Post":{
+      "title":"string",
+      "views":"int",
+      "published":"boolean",
+      "createdAt":"date",
+      "comments":"Comment[]"
+   },
+   "Comment":{
+      "body":"string",
+      "post":"Post"
+   },
+   "User":{
+      "success":"boolean",
+      "fields":{
+         "name":"string",
+         "email":"string",
+         "level":"int",
+         "type":"string"
+      },
+      "token":"string"
+   }
 }
