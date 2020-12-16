@@ -9,9 +9,9 @@
   "Comment": {
     "body": "string",
     "post": "Post"
-  }
+  },
   "User": {
-  "success":"boolean"
+  "success":"boolean",
    "fields":{
       "name":"string",
       "email":"string",
