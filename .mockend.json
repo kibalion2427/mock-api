@@ -12,7 +12,7 @@
   }
   "User": {
   "success":"boolean"
-   "user":{
+   "fields":{
       "name":"string",
       "email":"string",
       "level":"int",
