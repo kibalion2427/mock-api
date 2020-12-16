@@ -10,15 +10,13 @@
       "body":"string",
       "post":"Post"
    },
-   "Login":{
-      "success":"boolean",
-      "user":"User",
-      "token":"string"
-   },
    "User":{
       "name":"string",
       "email":"string",
       "level":"int",
-      "type":"string"
+      "type":"string",
+      "success":"boolean",
+      "user":"string",
+      "token":"string"
    }
 }
