@@ -11,6 +11,7 @@
       "post":"Post"
    },
    "User":{
+      "success":"boolean",
          "name":"string",
          "email":"string",
          "level":"int",
